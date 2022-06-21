@@ -15,4 +15,4 @@ Bom, o projeto foi criado com base no desafio deixado no Módulo 2 'Trabalhando 
 - Radio Button
 - Card
 
-O deploy do site se encontra no seguinte link: <a href="language-app-ang.netlify.app"> Site Linguagem - Angular</a>
+O deploy do site se encontra no seguinte link: <a href="https://language-app-ang.netlify.app/"> Site Linguagem - Angular</a>
