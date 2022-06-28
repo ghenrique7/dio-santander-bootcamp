@@ -15,7 +15,4 @@ Bom, o projeto foi criado com base no desafio deixado no Módulo 2 'Trabalhando 
 - Radio Button
 - Card
 
-O layout ficou assim: 
-<img src="./src/assets/img/foto1.png" alt="Minha Figura">
-<img src="./src/assets/img/foto2.png" alt="Minha Figura">
-<img src="./src/assets/img/foto3.png" alt="Minha Figura">
+O deploy do site se encontra no seguinte link: <a href="https://language-app-ang.netlify.app/"> Site Linguagem - Angular</a>
