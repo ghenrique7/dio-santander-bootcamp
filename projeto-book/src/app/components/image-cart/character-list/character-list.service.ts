@@ -1,11 +1,11 @@
 import {Injectable} from "@angular/core";
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import {Personagem} from "./model/Personagem.model";
+import {Character} from "./model/character.model";
 import { Observable, throwError } from 'rxjs';
 import { catchError, map, retry } from 'rxjs/operators';
 
 
-export const books: Personagem[] = [
+export const books: Character[] = [
   {name : "",
    house: "",
    dateOfBirth: 0,
@@ -19,7 +19,7 @@ export const books: Personagem[] = [
 @Injectable()
 
 
-export class BooksService {
+export class CharacterService {
 
   private url = 'http://hp-api.herokuapp.com/api/characters';  // URL to web api
 
@@ -34,7 +34,7 @@ export class BooksService {
     //     return books;
     // }
 
-    getBooks() {
+    getCharacter() {
       return this.http.get(this.url)
 
   

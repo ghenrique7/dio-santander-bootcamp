@@ -1,4 +1,4 @@
-export class Personagem 
+export class Character 
 {
     name!: string;
     house!: string;

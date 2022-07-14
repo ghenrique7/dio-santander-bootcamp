@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { NavComponent } from './components/shared/nav/nav.component';
-import { BookCartComponent } from './components/book-cart/book-cart.component';
-import { ProductListComponent } from './components/book-cart/product-list/product-list.component';
-import { FiltersComponent } from './components/book-cart/filters/filters.component';
+import { BookCartComponent } from './components/image-cart/image-cart.component';
+import { CharacterListComponent } from './components/image-cart/character-list/character-list.component';
+import { FiltersComponent } from './components/image-cart/filters/filters.component';
 
-import { ProductItemComponent } from './components/book-cart/product-list/product-item/product-item.component';
+import { ProductItemComponent } from './components/image-cart/character-list/character-item/character-item.component';
 import { HttpClientModule } from '@angular/common/http';
-import {BooksService} from './components/book-cart/product-list/product-list.service';
+import {CharacterService} from './components/image-cart/character-list/character-list.service';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,7 @@ import {BooksService} from './components/book-cart/product-list/product-list.ser
     FooterComponent,
     NavComponent,
     BookCartComponent,
-    ProductListComponent,
+    CharacterListComponent,
     FiltersComponent,
     ProductItemComponent
   ],
@@ -30,7 +30,7 @@ import {BooksService} from './components/book-cart/product-list/product-list.ser
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [BooksService],
+  providers: [CharacterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

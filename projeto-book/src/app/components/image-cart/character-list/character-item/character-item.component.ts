@@ -1,17 +1,17 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Personagem } from '../model/Personagem.model';
+import { Character } from '../model/character.model';
 
 @Component({
-  selector: 'app-product-item',
-  templateUrl: './product-item.component.html',
-  styleUrls: ['./product-item.component.css']
+  selector: 'app-character-item',
+  templateUrl: './character-item.component.html',
+  styleUrls: ['./character-item.component.css']
 })
 export class ProductItemComponent implements OnInit {
 
   url : string = "";
 
   @Input()
-  personagem!: Personagem;
+  character!: Character;
 
   constructor() {
 
