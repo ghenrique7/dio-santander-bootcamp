@@ -1,4 +1,4 @@
-export class Book 
+export class Personagem 
 {
     name!: string;
     house!: string;

@@ -1,11 +1,11 @@
 import {Injectable} from "@angular/core";
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import {Book} from "./model/books.model";
+import {Personagem} from "./model/Personagem.model";
 import { Observable, throwError } from 'rxjs';
 import { catchError, map, retry } from 'rxjs/operators';
 
 
-export const books: Book[] = [
+export const books: Personagem[] = [
   {name : "",
    house: "",
    dateOfBirth: 0,

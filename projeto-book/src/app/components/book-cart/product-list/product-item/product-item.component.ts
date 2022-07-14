@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Book } from '../model/books.model';
+import { Personagem } from '../model/Personagem.model';
 
 @Component({
   selector: 'app-product-item',
@@ -11,7 +11,7 @@ export class ProductItemComponent implements OnInit {
   url : string = "";
 
   @Input()
-  livro!: Book;
+  personagem!: Personagem;
 
   constructor() {
 
