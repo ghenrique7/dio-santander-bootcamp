@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\Projetos de Programação\Front-End\dio-aulas\dio-aulas\Java\Métodos\Exercicio2\.metadata\.plugins\org.eclipse.jdt.core
